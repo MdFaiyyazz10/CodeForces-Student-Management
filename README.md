@@ -1,5 +1,8 @@
 # 🧑‍🎓 Student Progress & Codeforces Dashboard
 
+🎥 [Click to Watch Demo](https://drive.google.com/file/d/1DR4G-zQxzP-B_PWiKYN2whmZZRBLHsNO/view?usp=drivesdk)
+
+
 A full-stack web app to manage student profiles and track their Codeforces activity in real-time. Includes contest performance charts, problem-solving stats, heatmaps, inactivity alerts, and CSV export — all in a responsive and clean dashboard.
 
 ---
