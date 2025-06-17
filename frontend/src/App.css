@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.react-calendar-heatmap text {
+  font-size: 8px;
+  fill: #555;
+}
+
+.react-calendar-heatmap .month-label {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.react-calendar-heatmap .color-empty {
+  fill: #ebedf0;
+}
+.react-calendar-heatmap .color-scale-1 {
+  fill: #c6e48b;
+}
+.react-calendar-heatmap .color-scale-2 {
+  fill: #7bc96f;
+}
+.react-calendar-heatmap .color-scale-3 {
+  fill: #239a3b;
+}
+.react-calendar-heatmap .color-scale-4 {
+  fill: #196127;
+}
+
+/* Month spacing: add right margin after every 4th week to simulate month gap */
+.react-calendar-heatmap .react-calendar-heatmap-week:nth-child(4n)::after {
+  content: "";
+  display: inline-block;
+  width: 4px; /* spacing between months */
+}
